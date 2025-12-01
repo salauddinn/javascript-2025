@@ -1,11 +1,12 @@
 // will learn about arraya
-// index 0,1,2,3
+// index 0,1,2,3,4
 let array=["apple","banana","grapes","mango","orange"];
 // console.log(array);
 // console.log(array[1]);
 // console.log(array.length);
 // console.log(array[array.length-1]);
 const OfferCODE="AI30";
+console.log("Offer code is "+OfferCODE);
 const numArray=[1,2,3,4,5];
 array=[1,4,5];
 // array=[true,false,true];
@@ -103,4 +104,5 @@ if(a%2 == 0){
 }else{
     console.log("odd number");
 }
-
+a= prompt("enter a number: ");
+// for loop
