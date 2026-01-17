@@ -42,7 +42,18 @@ let msg2=`hello world`;
 // console.log(message.charAt(4));
 // typescript
 // objects
-
+let age=10;
+// if else 
+    // if(_____ -> true/false){
+    //     console.log("adult");
+    // }else{
+    //     console.log("not adult");
+    // }
+    if(age>18){
+        console.log("adult");
+    }else{
+        console.log("not adult");
+    }
 // if else
 let balence=-10;
 if (balence>0){
@@ -55,7 +66,10 @@ else{
     console.log("balance is negative");
 }
 
-let str="a";
+let str="1";
+// == vs ===
+// === strict equality does type checking as well
+
 if (str==="a"){
     console.log("string is a");
 }
@@ -97,7 +111,16 @@ switch(day){
         console.log("invalid day");
 }
 
+// operators
+// arithmetic + - * / % ++ --
+//++ increment
+//-- decrement
+// <= >= == !=
+//  || !
+// logical and, or , not
 
+let count=0;
+let x=10;
 let a=13;
 if(a%2 == 0){
     console.log("even number");
