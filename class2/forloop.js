@@ -75,6 +75,21 @@ for (let i=0; i<array.length; i++){
 
 
 // console.log(multiarray)
+let arr = [1, 2, 3, 4, 2, 5, 4,5,2,3];   
+let uniquArray=[] // 1,2,3,4,5
+// 1 
+
+// remmaing values 2 3 4 2 5 4
+//[1,2]. remaing calues  3 4 2 5 4
+// [1,2,3] remainf 4 2 5 4
+// [1,2,3,4] remainf  2 5 4
+// if 2 is present unique array then skip it if not prestnthen add it
+// [1,2,3,4] remainf  5 4
+// [1,2,3,4, 5] remainf   4
+// [1,2,3,4, 5] remainf   
+
+// i++ -> i+1
+// 1.  Print only **unique values** from an array.
 
 let multiarray=[
     ["bird1","banana"],// 1st array 0
@@ -96,3 +111,18 @@ for (let i=0; i<multiarray.length; i++){
 // banana
 // mango
 // orange
+
+
+uniquArray.push(arr[0]) // [1]
+for(let i=1;i<arr.length;i++){
+    let present=false;// [1,2] arr[i] -> 3
+    for(let j=0;j<uniquArray.length;j++){
+        if(arr[i] ===uniquArray[j] ){  2===3 
+            present=true;
+        }
+    }
+    if(!present){
+        uniquArray.push(arr[i])
+    }
+}
+console.log(uniquArray)

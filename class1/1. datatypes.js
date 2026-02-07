@@ -43,6 +43,7 @@ let n = null; // null
 let floatNum = 10.5; // float
 let u; // undefined
 const pi = 3.14;
+pi=120;
 console.log(u);
 let arr = ["a","b","c"];
  // array

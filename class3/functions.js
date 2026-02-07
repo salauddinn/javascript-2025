@@ -86,3 +86,36 @@ const addWithPrint = (a, b) =>  {
     console.log("adding numbers");
     return a + b
 };
+
+
+
+
+// what are functions 
+// 2+2 => 4
+// 4+4 => 8
+// 100+100 => 200
+let a=2;
+let b=2;
+
+// console.log(a+b);
+// if(a< b){
+//     console.log(a +"greater ")
+// }
+let bal=100
+let addtionalBal=10;
+greater(bal,addtionalBal)
+// if(bal< addtionalBal){
+//     console.log(addtionalBal+"greater ")
+// }
+// console.log(bal+addtionalBal)
+
+function greater(a,b){
+if(a< b){
+     console.log(a+" is greater ")
+ }
+}
+
+
+function addtion(){
+
+}
